@@ -1,0 +1,30 @@
+body {
+  background-color: #efefef;
+  font-size: 14px;
+  color: #333;
+  margin: 0;
+}
+
+h1,h2,h3,h4,h5 {
+  margin: 0 0 10px 0;
+  padding: 0;
+}
+
+.coutainer {
+  width: 920px;
+}
+
+.header-title-area {
+  text-align: center;
+  background-color: #fff;
+}
+
+.logo {
+  font-size: 50px;
+  font-family: "arial narrow";
+  height: 150px;
+}
+
+.text-sub {
+  color: #777;
+}
