@@ -4,27 +4,28 @@ body {
   color: #333;
   margin: 0;
 }
-
 h1,h2,h3,h4,h5 {
   margin: 0 0 10px 0;
   padding: 0;
 }
-
-.coutainer {
+.container {
   width: 920px;
+  margin: 0 auto;
 }
 
 .header-title-area {
+  /* https://developer.mozilla.org/ja/docs/Web/CSS/CSS_Flexible_Box_Layout/Aligning_Items_in_a_Flex_Container */
+  display: flex;
+  justify-content: center; /* アイテムを左右中央に寄せる */
+  align-items: center; /* アイテムを上下中央にまとめる */ 
   text-align: center;
   background-color: #fff;
+  height: 150px;
 }
-
 .logo {
   font-size: 50px;
   font-family: "arial narrow";
-  height: 150px;
 }
-
 .text-sub {
   color: #777;
 }
